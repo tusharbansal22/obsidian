@@ -1,0 +1,27 @@
+.svg-container{
+  width: 9vw;
+  filter: invert(1);
+}
+
+.top-bar{
+  padding: 1vh 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black !important;
+  align-items: center;
+}
+
+.header-button{
+  padding: 2vh;
+  color: white;
+}
+.white{
+    background-color: white;
+    color: black !important;
+}
+
+.dark{
+  color: gray;
+  filter: brightness(1.6);
+}
